@@ -1,4 +1,5 @@
-import 'package:canvas_practice/custom_basic.dart';
+
+import 'package:canvas_practice/overlay_basic.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: Center(child: CanvasBasic()),
+        body: Center(child: OverlayExample()),
       )
     );
   }
